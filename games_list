@@ -32,7 +32,7 @@
             "weights": [[0, 0.5, 0], [0.5, 0, 0.5], [0.5, 0.5, 0]],
             "verbose": ["El jugador A debe adivinar la media entre 80 y lo que declare B.",
                         "El jugador B debe adivinar la media de lo que declaren A y C.",
-                        "El jugador C debe adivinar la media de lo que declaren A y >B."],
+                        "El jugador C debe adivinar la media de lo que declaren A y B."],
             "image_path": "g6.png"
         }
     }
