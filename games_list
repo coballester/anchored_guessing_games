@@ -1,0 +1,38 @@
+{
+        "Net1": { 
+            "num_anchors": 1,
+            "labels": ["A", "B", "C", "D"],
+            "strategy_space": [0,100],
+            "anchors": [0,40,0,40],
+            "weights": [[0,0.5,0,0],[0,0,0.5,0],[0,0,0,1],[0.5,0,0,0]],
+            "verbose": ["El jugador A debe adivinar la mitad de lo que declare B.",
+                        "El jugador B debe adivinar la media entre 80 y lo que declare C.",
+                        "El jugador C debe adivinar lo que declare D.",
+                        "El jugador D debe adivinar la media entre 80 y lo que declare A."],
+            "image_path": "g4.png"
+        },
+
+        "Net3-1": {
+            "num_anchors": 1,
+            "labels": ["A", "B", "C"],
+            "strategy_space": [0,100],
+            "anchors": [40,0,0],
+            "weights": [[0, 0.5, 0], [0.5, 0, 0.5], [0.5, 0.5, 0]],
+            "verbose": ["El jugador A debe adivinar la media entre 80 y lo que declare B.",
+                        "El jugador B debe adivinar la media de lo que declaren A y C.",
+                        "El jugador C debe adivinar la media de lo que declaren A y B."],
+            "image_path": "g6.png"
+        },
+
+        "Net3-2": {
+            "num_anchors": 1,
+            "labels": ["A", "B", "C"],
+            "strategy_space": [0,100],
+            "anchors": [40,0,0],
+            "weights": [[0, 0.5, 0], [0.5, 0, 0.5], [0.5, 0.5, 0]],
+            "verbose": ["El jugador A debe adivinar la media entre 80 y lo que declare B.",
+                        "El jugador B debe adivinar la media de lo que declaren A y C.",
+                        "El jugador C debe adivinar la media de lo que declaren A y >B."],
+            "image_path": "g6.png"
+        }
+    }
